@@ -1,0 +1,164 @@
+body {
+  
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://images.wallpaperscraft.com/image/single/couple_island_aerial_view_132582_3840x2400.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+     .form .form-group {
+      text-align: center;
+  } 
+
+  div {
+      display: block;
+  }
+  form input {
+    border-radius: 30px 30px;
+   
+    height: 60px;
+    font-size: 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    border-style: none;
+    z-index: 1;
+    line-height: 23px;
+    outline: none !important;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+
+
+
+input {
+  
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.btn--primary {
+ 
+  background: -webkit-gradient(linear, left top, right top, from(#c7081f), to(#ec5700));
+  background: -webkit-linear-gradient(left, #c7081f 0%, #ec5700 100%);
+  background: -o-linear-gradient(left, #c7081f 0%, #ec5700 100%);
+  background: linear-gradient(90deg, #c7081f 0%, #ec5700 100%);
+}
+.btn {
+  color: white;
+  font-weight: 600;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  height: 60px;
+  padding: 0 30px;
+  width: 50%;
+ 
+ 
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 1.15789rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  border: none;
+}
+form input {
+  border-radius: 30px 30px;
+ 
+  height: 60px;
+  font-size: 2rem;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  border-style: none;
+  z-index: 1;
+  line-height: 23px;
+  outline: none !important;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+
+
+
+input {
+
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+.result {
+  position: relative;
+  bottom: 20px;
+  z-index: 2;
+  background-image: url('https://www.freeiconspng.com/thumbs/heart-png/heart-png-31.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: houschka-rounded, sans-serif;
+  color: #fff;
+  font-size: 1.57895rem;
+  font-weight: 500;
+  background-size: contain;
+  width: 250px;
+  height: 170px;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -65px;
+}
+.p 
+{
+  z-index: 10000;
+}
+
+@media(min-width:0px)and (max-width:480px){
+    nav a {
+        font-size: 20px;
+    }
+}
